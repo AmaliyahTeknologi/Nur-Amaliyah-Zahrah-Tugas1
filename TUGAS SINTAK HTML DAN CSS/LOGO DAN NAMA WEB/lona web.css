@@ -1,0 +1,98 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px; /* Sesuaikan jarak antara logo dan teks jika diperlukan */
+    background-color: #f0f0f0be; /* Ganti dengan warna latar belakang yang diinginkan */
+    padding: 10px; /* Sesuaikan dengan ruang di sekitar logo */
+    border-radius: 8px; /* Tambahkan border-radius jika ingin sudut yang melengkung */
+}
+
+.logo {
+    float:right;
+    margin-right: 10px; /* Sesuaikan jarak antara logo dan teks */
+}
+
+.text {
+    display: flex;
+    flex-direction: column; /* Mengatur teks secara vertikal */
+    text-align: center;
+    background-color: #f2f2f271;
+    color: #333;
+    padding: 20px;
+}
+
+.text h1 {
+    font-family: 'Poetsen One', serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color:#26c789;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-family:"DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #474545;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: -1px;
+}
+
+.keterangan {
+    background-color: #ffbf00;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.teks-keterangan {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.teks-keterangan h2 {
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.teks-keterangan p {
+    color: #474545;
+    text-align:justify;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #5f595970;
+    color: #f0f0f0;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: auto;
+    font-family: 'Poetsen One', serif;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-info {
+    background-color: #615c5c;
+    text-align: center;
+    padding: 10px 0;
+}
